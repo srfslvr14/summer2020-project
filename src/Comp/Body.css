@@ -1,0 +1,70 @@
+Body {
+    background-color: whitesmoke;
+}
+
+.pkmn-list{
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #efefef;
+    padding: 30px;
+    box-shadow: 
+        0 1px 1px rgba(0, 0, 0, 0.15),
+        0 10px 0 -5px #eee,
+        0 10px 1px -4px  rgba(0, 0, 0, 0.15),
+        0 20px 0 -10px #eee,
+        0 20px 1px -9px  rgba(0, 0, 0, 0.15)
+}
+
+.pkmn-item{
+    align-items: center;
+    border-right: 1px solid #efefef; 
+    padding: 30px 20px 0px;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+.pkmn-card{
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    
+    display: flex;    
+    justify-content: space-evenly;
+
+    border: 1px solid lightslategray;
+    box-shadow: 
+        0 1px 1px rgba(0, 0, 0, 0.15),
+        0 10px 0 -5px #eee,
+        0 10px 1px -4px  rgba(0, 0, 0, 0.15),
+        0 20px 0 -10px #eee,
+        0 20px 1px -9px  rgba(0, 0, 0, 0.15)
+    
+}
+
+.pkmn-sprite{
+    width: 30%;
+
+}
+
+.pkmn-specs{
+    width: 30%;
+    color: black;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type=checkbox]{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+input[type=checkbox]:focus{
+    outline: 0;
+}
